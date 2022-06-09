@@ -71,3 +71,17 @@ $(document).ready(function(){
         }
     });
 });
+
+function sendEmail() {
+    Email.send({
+        Host : "smtp.gmail.com",
+        Username : "smwork770@gmail.com",
+        Password : "smwork770",
+        To : 'greatcitizen70@gmail.com',
+        From :document.getElementById("email").value,
+        Subject : "New Contact From Enquirery",
+        Body : "And this is the body"
+    }).then(
+      message => alert(message)
+    );
+}
