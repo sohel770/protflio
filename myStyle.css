@@ -1,0 +1,43 @@
+
+.independent-service{
+   
+}
+.independent-service img{
+   width: 350px;
+   text-align: center;
+}
+.warehouse{
+    width: 700px;
+    margin: 50px auto;
+    /* border: 1px solid red; */
+    box-shadow: 0px 0px 5px 4px gray;
+    padding: 30px;
+    border-radius: 10px;
+}
+.warehouse-img{
+    display: flex;
+    flex-direction: column;
+}
+.warehouse-img img{
+    width: 500px;
+}
+.warehouse h3{
+font-size:25px;
+text-transform: capitalize;
+}
+.warehouse h4{
+font-size: 18px;
+margin-bottom: 5px;
+}
+
+
+
+
+
+@media (max-width: 690px) {
+    .project-content{
+        display: flex;
+        flex-direction: column;
+    }
+    
+}
